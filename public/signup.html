@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Sign Up</title>
+	
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body class="homepage">
+<header id="header">
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo1.gif" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>                        
+                        <li class="active"><a href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+		
+    </header><!--/header-->
+
+    <div id="bottom">
+    </div>
+
+<div class="signupbgimg">
+    <br/><br/>
+
+    <section id="contact-page">
+        <div class="container">
+            <div class="col-sm-6 col-sm-offset-4">        
+                <h2>Sign Up for DealManthan</h2>
+                <br/>
+            </div> 
+
+            <div> 
+            
+                <form action="/signup" method="POST">
+                    <div class="col-sm-5 col-sm-offset-3">
+                        <div class="form-group">
+                            <label>Name:</label><br/>
+                            <div class="input-group">
+                            <input type="text" id="username" name="username" class="form-control" required="required" placeholder="Enter Name" style="border:2px solid #0000FF;">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <div class="input-group">
+                            <input type="email" id="email" name="email" class="form-control" required="required" placeholder="Enter Email ID" style="border:2px solid #0000FF;">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Password:</label>
+                            <div class="input-group">
+                            <input type="password" id="password" name="password" class="form-control" placeholder="Enter Password" style="border:2px solid #0000FF;">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Confirm Password:</label>
+                            <div class="input-group">
+                            <input type="password" class="form-control" placeholder="Enter same password to confirm" style="border:2px solid #0000FF;">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                            </div>
+                        </div> 
+                        <div align="center">
+                            <button type="submit" class="btn btn-primary btn-lg" required="required">Sign Up</button>
+                            <br/><br/><br/><br/>
+                        </div>                       
+                    </div>
+                </form> 
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#contact-page-->
+
+		
+<div id="bottom">
+    </div>
+
+    <div class="signupbgimg">
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2014 <a target="_blank" href="index.html" title="E-Commerce Web Crawler">DealManthan</a>. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+</body>
+</html>

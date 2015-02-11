@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Blog Single | Corlate</title>
+    
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body onload="checkLogin()">
+
+        <!-- Custom Alert Dialog-->
+        <div id="dialogoverlay"></div>
+        <div id="dialogbox">
+        <div>
+            <div id="dialogboxhead"></div>
+            <div id="dialogboxbody"></div>
+            <div id="dialogboxfoot"></div>
+        </div>
+        </div>
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo1.gif" alt="logo"></a>
+                </div>
+                
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul id="nav_menu" class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li style="display: none;"><a href="home.html">Home</a></li>
+                        <li style="display: none;"><a href="history.html">History</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li class="active"><a href="contact-us.html">Contact</a></li>                     
+                        <li style="display: none;"><a href="index.html">Sign Out</a></li>                             
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+
+    <div id="bottom">
+    </div>
+
+    <section id="contact-info">
+        <div class="center">                
+            <h2>How to Reach Us?</h2>
+            <p class="lead">We all need people who can ask queries and provide feedback to us. That's how we improve.</p>
+        </div>
+        <div class="gmap-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 text-center">
+                        <div class="gmap">
+                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=San Jose State University,+San Jose,+California,+USA&amp;aq=0&amp;oq=sjsu&amp;sll=37.334818,-121.884886&amp;ie=UTF8&amp;output=embed"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-7 map-content">
+                        <ul class="row">
+                            <li class="col-sm-6">
+                                <address>
+                                    <h5>Head Office</h5>
+                                    <h6>San Jose State University</h6>
+                                    <p>1 Washington Sq <br>
+                                    San Jose, CA 95192</p>
+                                    <p>Phone: <a href="tel:+13174562564">(408) 924-1000</a> <br>
+                                    Email Address: <a href="mailto:devenpawar18@gmail.com?subject=Contact Generation-X">Deven Pawar</a></p>
+                                </address>
+
+                                <address>
+                                    <h5>Zonal Office</h5>
+                                    <h6>Dr. Martin Luther King, Jr. Library</h6>
+                                    <p>150 E San Fernando St <br>
+                                    San Jose, CA 95192</p>
+                                    <p>Phone: <a href="tel:+13174562564">(408) 924-1000</a> <br>
+                                    Email Address: <a href="mailto:mittalayush89@gmail.com?subject=Contact Generation-X">Ayush Mittal</a></p>
+                                </address>
+                            </li>
+
+
+                            <li class="col-sm-6">
+                                <address>
+                                    <h5>Zone#2 Office</h5>
+                                    <h6>Charles W. Davidson College of Engineering</h6>
+                                    <p>112 E San Fernando St <br>
+                                    San Jose, CA 95192</p>
+                                    <p>Phone: <a href="tel:+13174562564">(408) 924-1000</a> <br>
+                                    Email Address: <a href="mailto:anky689@gmail.com?subject=Contact Generation-X">Ankur Gupta</a></p>
+                                </address>
+
+                                <address>
+                                    <h5>Zone#2 Office</h5>
+                                    <h6>Robert D. Clark Hall</h6>
+                                    <p>232 S 7th St <br>
+                                    San Jose, CA 95192</p>
+                                    <p>Phone: <a href="tel:+13174562564">(408) 924-1000</a> <br>
+                                    Email Address: <a href="mailto:abinaya.sampath@sjsu.edu?subject=Contact Generation-X">Abinaya Sampath</a></p>
+                                </address>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  <!--/gmap_area -->
+
+    <section id="contact-page">
+        <div class="container">
+            <div class="center">        
+                <h2>Drop Your Message</h2>
+            </div> 
+
+
+            <div class="row contact-wrap"> 
+                <div class="status alert alert-success" style="display: none"></div>
+                <form>
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+                            <label>Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" required="required" style="border:1px solid #F7730E;">
+                        </div>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" id="email" name="email" class="form-control" required="required" style="border:1px solid #F7730E;">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="number" id="number" class="form-control" style="border:1px solid #F7730E;">
+                        </div>
+                        <div class="form-group">
+                            <label>Company Name</label>
+                            <input type="text" id="company" class="form-control" style="border:1px solid #F7730E;">
+                        </div>                        
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <label>Subject *</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required="required" style="border:1px solid #F7730E;">
+                        </div>
+                        <div class="form-group">
+                            <label>Message *</label>
+                            <textarea name="message" id="message" required="required" class="form-control" rows="8" style="border:1px solid #F7730E;"></textarea>
+                        </div>                        
+                        <div>
+                            <button type="button" onclick="sendMessage()" class="btn btn-primary btn-lg" required="required">Submit Message</button>
+                        </div>
+                    </div>
+                </form> 
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#contact-page-->
+
+    <div id="bottom">
+    </div>
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2014 <a target="_blank" href="http://shapebootstrap.net/" title="">DealManthan</a>. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+</body>
+</html>
